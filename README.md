@@ -4,8 +4,6 @@ This template demonstrates how to configure a Spring Boot application to connect
 It's ideal for projects that require interaction with multiple databases using Spring Boot.
 
 ## Setting Up
-return
-
 ### Prerequisites
 
 - JDK 17 or later
