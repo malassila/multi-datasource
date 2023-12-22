@@ -30,7 +30,7 @@ cd [repository-name]
             - `1433`: The port number for the SQL Server. This is the default port for Microsoft SQL Server.
             - `example`: Name of the database. In this template, the database is named "example".
 
-### JDBC Connection String Examples and Information
+## JDBC Connection String Examples and Information
 
 Different databases use specific formats and ports for their JDBC connection strings. Below is a reference table with examples and important information for various database types:
 
@@ -41,14 +41,14 @@ Different databases use specific formats and ports for their JDBC connection str
 | PostgreSQL    | 5432        | `jdbc:postgresql://localhost:5432/example`                      | Default port for PostgreSQL. Widely used in various environments. |
 | Oracle        | 1521        | `jdbc:oracle:thin:@localhost:1521:example`                      | Oracle uses a `SID` (`example` here), or you can use a service name. |
 
-### Additional Notes
+## Additional Notes
 
 - **Host/IP**: Replace `localhost` with the actual server address or IP if the database is not hosted locally.
 - **Database Name**: Replace `example` with the actual name of your database.
 - **Port**: The port number can be different if configured differently on the database server.
 - **Parameters**: Connection strings can include additional parameters for specific needs, like SSL configuration, time zone settings, etc.
 
-### Other Connection Methods
+## Other Connection Methods
 
 In addition to standard host and port connections, JDBC allows for various other methods:
 
@@ -57,7 +57,7 @@ In addition to standard host and port connections, JDBC allows for various other
 
 Understanding these components and methods will help you effectively configure and troubleshoot database connections in your Spring Boot applications.
 
-### Additional Connection String Parameters
+## Additional Connection String Parameters
 
 | Parameter            | Example                       | Why Use It                                             | Considerations                                   | Errors/Exceptions it Might Solve                |
 |----------------------|-------------------------------|--------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
